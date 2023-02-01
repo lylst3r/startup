@@ -3,6 +3,7 @@
 Have you ever been distracted while studying and wished there was a site that helped you stay focused and allowed you to manage multiple tasks from the same place? Study Room gives you a virtual room that you can decorate to your liking which gives you multiple features to help you study. There is a to-do list and a timer, and you can add a music playlist and friends to keep you accountable.
 
 ![IMG_0068](https://user-images.githubusercontent.com/40433574/215251909-3bc58a60-3b47-4df0-99f3-bb866ac02c26.PNG =250x250)
+<img src="https://user-images.githubusercontent.com/40433574/215251909-3bc58a60-3b47-4df0-99f3-bb866ac02c26.PNG" width="100" height="100">
 
 ![IMG_0069](https://user-images.githubusercontent.com/40433574/215251924-7953cabd-c75e-4acf-b2e5-49a0eef09286.PNG)
 
