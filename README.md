@@ -4,7 +4,7 @@ Have you ever been distracted while studying and wished there was a site that he
 
 <img src="https://user-images.githubusercontent.com/40433574/216184122-539ad270-98b3-41f6-b913-369976c68c6c.PNG" width="350" height="250">
 
-<img src="https://user-images.githubusercontent.com/40433574/216184136-420f4b89-0c51-4729-bb92-129cbf18c49e.PNG" width="350" height="250">
+<img src="https://user-images.githubusercontent.com/40433574/216184136-420f4b89-0c51-4729-bb92-129cbf18c49e.PNG" width="350" height="250" align="right">
 
 
 Key Features:
