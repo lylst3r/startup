@@ -18,4 +18,13 @@ Have you ever been distracted while studying and wished there was a site that he
 - IP Address: 3.135.174.144
 - remote shell command: ssh -i [key pair file --> pink laptop] ubuntu@[ip address]
 - domain name: studyroom
-- http://studyroom.click
+- https://studyroom.click
+- git clone <URL>
+- git commit -am "update comments" >> git push
+- git fetch >> git status >> git pull
+- .deployFiles.sh -k <yourpemkey> -h studyroom.click
+
+
+### Simon
+- https://simon.studyroom.click
+- .deployFiles.sh -k <yourpemkey> -h studyroom.click -s simon
