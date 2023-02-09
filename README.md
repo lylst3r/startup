@@ -28,3 +28,4 @@ Have you ever been distracted while studying and wished there was a site that he
 ### Simon
 - https://simon.studyroom.click
 - .deployFiles.sh -k <yourpemkey> -h studyroom.click -s simon
+- have a different file for each page and connect with links
