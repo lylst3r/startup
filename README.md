@@ -29,3 +29,8 @@ Have you ever been distracted while studying and wished there was a site that he
 - https://simon.studyroom.click
 - ./deployWebsite.sh -k <yourpemkey> -h studyroom.click -s simon
 - have a different file for each page and connect with links
+- separate CSS file (or multiple if complex)
+- may want to change html files when implement CSS
+- use !important when overriding bootstrap
+- to make rgb colors a different shade multiply by a fraction (darker)
+- to make rgb colors a different tint find 255-original value and multiply that by a fraction (lighter)
