@@ -38,7 +38,7 @@ Have you ever been distracted while studying and wished there was a site that he
 ### HTML
 - basic structure to include:
   - DOCTYPE html
-  - html
+  - html lang
     - header --> meta charset, link css and javascript
     - body
 
