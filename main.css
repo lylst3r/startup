@@ -26,10 +26,19 @@ body {
 }
 
 .todo {
-    height: 120px;
-    width: 150px;
-    top: 21%;
-    left: 10%;
+    height: 200px;
+    width: 200px;
+    top: 44%;
+    left: 14%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.chat {
+    height: 100px;
+    width: 100px;
+    top: 51%;
+    right: 31%;
     position: absolute;
     border-radius: 40px;
 }
