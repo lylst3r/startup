@@ -1,6 +1,7 @@
 body {
     background-color: rgb(41, 29, 54);
     background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .image_room {

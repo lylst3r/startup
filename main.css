@@ -6,7 +6,30 @@ body {
     height: 100%; */
     background-color: rgb(41, 29, 54);
     background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
     /*background-attachment: fixed;*/
+}
+
+.topnav {
+    background-color: rgb(19, 13, 27);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #d2d5c1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(41, 29, 54);
+}
+
+.topnav a.active {
+    background-color: rgb(29, 19, 39);
 }
 
 .image_room {
@@ -18,7 +41,7 @@ body {
 
 .btn {
     cursor: pointer;
-    border: 0.5px solid; /*change to none*/
+    border: none;
     background-color: transparent;
     outline: none;
     background-repeat: no-repeat;
@@ -28,7 +51,7 @@ body {
 .todo {
     height: 200px;
     width: 200px;
-    top: 44%;
+    top: 46%;
     left: 14%;
     position: absolute;
     border-radius: 40px;
@@ -37,7 +60,7 @@ body {
 .chat {
     height: 100px;
     width: 100px;
-    top: 51%;
+    top: 57%;
     right: 31%;
     position: absolute;
     border-radius: 40px;
