@@ -4,6 +4,7 @@ body {
     background-size: cover;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
+    background-repeat: no-repeat;
 }
 
 .login input[type="text"], .login input[type="password"] {
