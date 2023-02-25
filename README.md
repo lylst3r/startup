@@ -23,6 +23,7 @@ Have you ever been distracted while studying and wished there was a site that he
 - git commit -am "update comments" >> git push
 - git fetch >> git status >> git pull
 - .deployFiles.sh -k [yourpemkey] -h studyroom.click
+- Live Server VS Code extensions --> to see what code looks like in browser
 
 
 ### Simon
