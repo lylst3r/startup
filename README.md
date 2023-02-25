@@ -34,3 +34,13 @@ Have you ever been distracted while studying and wished there was a site that he
 - use !important when overriding bootstrap
 - to make rgb colors a different shade multiply by a fraction (darker)
 - to make rgb colors a different tint find 255-original value and multiply that by a fraction (lighter)
+
+### HTML
+- basic structure to include:
+  - <!DOCTYPE html>
+  - <html lang="en"></html>
+    - <header>meta charset, link css and javascript</header>
+    - <body></body>
+
+###CSS
+- 
