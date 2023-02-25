@@ -41,6 +41,9 @@ Have you ever been distracted while studying and wished there was a site that he
   - html lang
     - header --> meta charset, link css and javascript
     - body
+- class: can be used by multiple elements; id: can only be used by one
 
 ### CSS
-- 
+- use body to set background color (or image) and font for entire page
+- top/bottom and left/right useful for moving elements around page
+- save images without background as png to avoid adding white background
