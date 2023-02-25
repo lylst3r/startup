@@ -37,10 +37,10 @@ Have you ever been distracted while studying and wished there was a site that he
 
 ### HTML
 - basic structure to include:
-  - <!DOCTYPE html>
-  - <html lang="en"></html>
-    - <header>meta charset, link css and javascript</header>
-    - <body></body>
+  - DOCTYPE html
+  - html
+    - header --> meta charset, link css and javascript
+    - body
 
-###CSS
+### CSS
 - 
