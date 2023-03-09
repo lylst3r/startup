@@ -44,6 +44,7 @@ Have you ever been distracted while studying and wished there was a site that he
     - header --> meta charset, link css and javascript
     - body
 - class: can be used by multiple elements; id: can only be used by one
+- - div = division element
 
 ### CSS
 - add to html with style tag or link rel="stylesheet" href=filename
@@ -56,3 +57,8 @@ Have you ever been distracted while studying and wished there was a site that he
 
 ### JavaScript
 - add to HTML with script tag or script src=filename
+- functions
+  - function Add(x, y)
+  - let add = function a(x, y)
+  - var add = (x, y) => x+y
+  - 
