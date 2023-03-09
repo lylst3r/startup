@@ -62,4 +62,4 @@ Have you ever been distracted while studying and wished there was a site that he
   - function Add(x, y)
   - let add = function a(x, y)
   - var add = (x, y) => x+y
-  - <img src="<img src="https://user-images.githubusercontent.com/40433574/216184122-539ad270-98b3-41f6-b913-369976c68c6c.PNG" width="450" height="350">" width="450" height="350">
+  - <img src="https://tec-refresh.com/wp-content/uploads/2021/03/regex-cheatsheet.jpg" width="450" height="350">
