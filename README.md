@@ -46,9 +46,13 @@ Have you ever been distracted while studying and wished there was a site that he
 - class: can be used by multiple elements; id: can only be used by one
 
 ### CSS
+- add to html with style tag or link rel="stylesheet" href=filename
 - use body to set background color (or image) and font for entire page
 - top/bottom and left/right useful for moving elements around page
 - save images without background as png to avoid adding white background
+- add fonts
+  - @font-face with elements font-family and src
+  - @import url()
 
 ### JavaScript
 - add to HTML with script tag or script src=filename
