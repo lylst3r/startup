@@ -44,7 +44,7 @@ Have you ever been distracted while studying and wished there was a site that he
     - header --> meta charset, link css and javascript
     - body
 - class: can be used by multiple elements; id: can only be used by one
-- - div = division element
+- div = division element
 
 ### CSS
 - add to html with style tag or link rel="stylesheet" href=filename
@@ -54,6 +54,7 @@ Have you ever been distracted while studying and wished there was a site that he
 - add fonts
   - @font-face with elements font-family and src
   - @import url()
+- box model = (outside) margin, border, padding, content (inside)
 
 ### JavaScript
 - add to HTML with script tag or script src=filename
@@ -61,4 +62,4 @@ Have you ever been distracted while studying and wished there was a site that he
   - function Add(x, y)
   - let add = function a(x, y)
   - var add = (x, y) => x+y
-  - 
+  - <img src="<img src="https://user-images.githubusercontent.com/40433574/216184122-539ad270-98b3-41f6-b913-369976c68c6c.PNG" width="450" height="350">" width="450" height="350">
