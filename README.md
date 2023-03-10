@@ -25,6 +25,9 @@ Have you ever been distracted while studying and wished there was a site that he
 - .deployFiles.sh -k [yourpemkey] -h studyroom.click
 - Live Server VS Code extensions --> to see what code looks like in browser
 - startup: https://startup.studyroom.click
+- DNS = domain name system --> translates human readable domain names to IP addresses
+  - A = address (IP)
+  - CNAME = canonical name --> points a domain name to another domain
 
 
 ### Simon
