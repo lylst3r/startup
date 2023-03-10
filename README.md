@@ -45,6 +45,8 @@ Have you ever been distracted while studying and wished there was a site that he
     - body
 - class: can be used by multiple elements; id: can only be used by one
 - div = division element
+- DOM = document object model; defines the HTML elements as objects, the properties of all HTML elements, the methods access all HTML methods, and the events for all HTML methods
+- hyperlink = a href=url
 
 ### CSS
 - add to html with style tag or link rel="stylesheet" href=filename
@@ -62,4 +64,15 @@ Have you ever been distracted while studying and wished there was a site that he
   - function Add(x, y)
   - let add = function a(x, y)
   - var add = (x, y) => x+y
-  - regular expressions <img src="https://tec-refresh.com/wp-content/uploads/2021/03/regex-cheatsheet.jpg" width="450" height="350">
+- <img src="https://tec-refresh.com/wp-content/uploads/2021/03/regex-cheatsheet.jpg" width="450" height="350">
+- JSON = JavaScript Object Notation
+  - data in name/value pairs
+  - data separated by commas
+  - curly braces hold objects
+  - square brackets hold arrays
+  - double quotes
+- console commands
+  - chmod +x deploy.sh = makes a script executable
+  - ssh deploy.sh = a universal deployment script that makes it easy for you to deploy your code, files, configurations, etc. to multiple servers via ssh (secure shell)
+  - ls -la deploy.sh = lists files and directories; -l includes extra info and -a includes hidden files
+  - sudo deploy.sh =  super user do; run programs with the security privileges of another user
