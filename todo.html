@@ -14,16 +14,22 @@
             </div>
         </div>
     -->
-        <div id="myDIV" class="header">
-            <h2>To Do</h2>
-            <input type="text" id="myInput" placeholder="Item...">
-            <span onclick="newElement()" class="addBtn">Add</span>
-        </div>
 
-        <ul id="myUL">
-            <li>Pet a chicken</li>
-            <li>Have a snack</li>
-        </ul>
+        <div id="todoList">
+            <span onclick="window.location='main.html';" class="backBtn">Back</span>
+            <div id="myDIV" class="header">
+                
+                <h2>To-Do List</h2>
+                
+                <input type="text" id="myInput" placeholder="Item...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="myUL">
+                <li>Pet a chicken</li>
+                <li>Have a snack</li>
+            </ul>
+        </div>
 
         <script src="todo.js"></script>
     </body>

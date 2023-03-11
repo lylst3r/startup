@@ -1,9 +1,20 @@
-/*
+
 body {
     background-color: rgb(41, 29, 54);
     background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("main_room.jpg");
+    background-size: cover;
 }
+
+#todoList {
+    margin: 20px 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+/*
 
 .image_room {
     width: 100%;
@@ -32,9 +43,12 @@ body {
 * {
     box-sizing: border-box;
 }
+
 ul {
     margin: 0;
-    padding: 0;
+    padding: 20px 0px;
+    background:rgb(41, 29, 54);
+    list-style-type: none;
 }
 
 ul li {
@@ -44,6 +58,8 @@ ul li {
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
+    margin: 10px 150px;
+    border-radius: 2px;
 
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -90,8 +106,8 @@ ul li.checked::before {
 }
 
 .header {
-    background-color: #f44336;
-    padding: 30px 40px;
+    background-color: rgb(29, 19, 39);
+    padding: 30px 200px;
     color: white;
     text-align: center;
 }
@@ -105,16 +121,29 @@ ul li.checked::before {
 input {
     margin: 0;
     border: none;
-    border-radius: 0;
+    border-radius: 2px 0px 0px 2px;
     width: 75%;
     padding: 10px;
     float: left;
     font-size: 16px;
 }
 
+.backBtn {
+    float: right;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.backBtn:hover {
+    background-color: rgb(41, 29, 54);
+}
+
 .addBtn {
     padding: 10px;
-    width: 25%;
+    width: 20%;
     background: #d9d9d9;
     color: #555;
     float: left;
@@ -122,7 +151,7 @@ input {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 0;
+    border-radius: 0px 2px 2px 0px;
 }
 
 .addBtn:hover {
