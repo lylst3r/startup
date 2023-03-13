@@ -52,7 +52,7 @@ body {
 
 .btn {
     cursor: pointer;
-    /*border: none;*/
+    border: none; /*comment out to see boxes*/
     background-color: transparent;
     outline: none;
     background-repeat: no-repeat;
