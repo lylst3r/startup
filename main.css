@@ -52,7 +52,7 @@ body {
 
 .btn {
     cursor: pointer;
-    border: none;
+    /*border: none;*/
     background-color: transparent;
     outline: none;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ body {
 .todo {
     height: 200px;
     width: 200px;
-    top: 46%;
+    top: 55%;
     left: 14%;
     position: absolute;
     border-radius: 40px;
@@ -71,8 +71,17 @@ body {
 .chat {
     height: 100px;
     width: 100px;
-    top: 57%;
+    top: 60%;
     right: 31%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.cal {
+    height: 200px;
+    width: 200px;
+    top: 15%;
+    right: 28%;
     position: absolute;
     border-radius: 40px;
 }
