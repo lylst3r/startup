@@ -1,4 +1,4 @@
-# startup
+# Startup
 
 Have you ever been distracted while studying and wished there was a site that helped you stay focused and allowed you to manage multiple tasks from the same place? Study Room gives you a virtual room that you can decorate to your liking which gives you multiple features to help you study. There is a to-do list and a timer, and you can add a music playlist and friends to keep you accountable.
 
@@ -14,7 +14,9 @@ Have you ever been distracted while studying and wished there was a site that he
 - Take timed breaks
 - Custom decorations
 
-### Server
+# Notes
+
+### Server:
 - IP Address: 3.135.174.144
 - remote shell command: ssh -i [key pair file --> pink laptop] ubuntu@[ip address]
 - domain name: studyroom
@@ -30,7 +32,7 @@ Have you ever been distracted while studying and wished there was a site that he
   - CNAME = canonical name --> points a domain name to another domain
 
 
-### Simon
+### Simon:
 - https://simon.studyroom.click
 - ./deployWebsite.sh -k [yourpemkey]-h studyroom.click -s simon
 - have a different file for each page and connect with links
@@ -40,7 +42,7 @@ Have you ever been distracted while studying and wished there was a site that he
 - to make rgb colors a different shade multiply by a fraction (darker)
 - to make rgb colors a different tint find 255-original value and multiply that by a fraction (lighter)
 
-### HTML
+### HTML:
 - basic structure to include:
   - DOCTYPE html
   - html lang
@@ -51,7 +53,7 @@ Have you ever been distracted while studying and wished there was a site that he
 - DOM = document object model; defines the HTML elements as objects, the properties of all HTML elements, the methods access all HTML methods, and the events for all HTML methods
 - hyperlink = a href=url
 
-### CSS
+### CSS:
 - add to html with style tag or link rel="stylesheet" href=filename
 - use body to set background color (or image) and font for entire page
 - top/bottom and left/right useful for moving elements around page
@@ -61,7 +63,7 @@ Have you ever been distracted while studying and wished there was a site that he
   - @import url()
 - box model = (outside) margin, border, padding, content (inside)
 
-### JavaScript
+### JavaScript:
 - add to HTML with script tag or script src=filename
 - functions
   - function Add(x, y)
@@ -79,3 +81,15 @@ Have you ever been distracted while studying and wished there was a site that he
   - ssh deploy.sh = a universal deployment script that makes it easy for you to deploy your code, files, configurations, etc. to multiple servers via ssh (secure shell)
   - ls -la deploy.sh = lists files and directories; -l includes extra info and -a includes hidden files
   - sudo deploy.sh =  super user do; run programs with the security privileges of another user
+
+### Web Service
+- use port 3000 for Simon and port 4000 for startup
+- convert to a service
+  1. move deliverable code files (html, js, css, images/icons, asserts) to a sub-directory "public"; app.use(express.static('public'));
+  2. run npm init -y within project directory
+  3. modify .gitignore to ignore node_modules
+  4. npm install express
+  5. create index.js (entry point node.js will call when run web service)
+  6. add basic js code needed to host the app static content and desired endpoints
+  7. modify app code to make service endpoint requests to HTTP service code
+- ./deployService.sh -k [yourpemkey]-h studyroom.click -s simon
