@@ -93,3 +93,7 @@ Have you ever been distracted while studying and wished there was a site that he
   6. add basic js code needed to host the app static content and desired endpoints
   7. modify app code to make service endpoint requests to HTTP service code
 - ./deployService.sh -k [yourpemkey]-h studyroom.click -s simon
+
+### React
+- components: modularize functionality, code reuse, generate user interface (render)
+- reactivity: making the UI react to changes in user input/data
