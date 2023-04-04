@@ -84,7 +84,7 @@ Have you ever been distracted while studying and wished there was a site that he
 
 ### Web Service
 - use port 3000 for Simon and port 4000 for startup
-- convert to a service
+- Simon: convert to a service
   1. move deliverable code files (html, js, css, images/icons, asserts) to a sub-directory "public"; app.use(express.static('public'));
   2. run npm init -y within project directory
   3. modify .gitignore to ignore node_modules
@@ -93,6 +93,15 @@ Have you ever been distracted while studying and wished there was a site that he
   6. add basic js code needed to host the app static content and desired endpoints
   7. modify app code to make service endpoint requests to HTTP service code
 - ./deployService.sh -k [yourpemkey]-h studyroom.click -s simon
+
+### Database
+- save data
+- MongoDB
+- protect credentials
+  - set environment variables in production environment (ssh, sudo, etc...)
+  - set environment variables in development environment (system environment variables)
+- npm init -y, npm install mongodb. node main.js
+- Simon: create a database cluster, protect credentials, stores high scores, use deployService script
 
 ### React
 - components: modularize functionality, code reuse, generate user interface (render)
