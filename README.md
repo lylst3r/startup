@@ -110,7 +110,16 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 - database: store users in Mongo, getUser and creatUser functions
 - generating authentication tokens: use the uuid package (Universally Unique Identifier) >> creates a hard to guess, random, unique ID
 - securing passwords: never store the actual password >> hash it, to validate compare the hasehd login password to our stored hash, bcrypt package
-- passing authentication tokes: 
+- passing authentication tokens: pass generated authentication token to the browser when the login endpoint is called, get it back on subsequent requests, cookie-parser package (middleware for cookies)
+  - httpOnly >> tells the browser to not allow JS running on the browser to read the cookie
+  - secure >> requires HTTPS to be used when sending the cookie back to the server
+  - sameSite >> will only return the cookie to the domain that generated it
+- login endpoint: get hashed password from the db, compare to the provided password using bcrypt.compare, if successful set the authentication token in the cookie
+- GetMe endpoint: get the user object from the db by querying on the authentication token, check for authentication token and user with that token
+- Simon 
+  - Authorization UI: login UI in files in the public folder, when index.html is loaded an anonymous function in login.js determines if the user is already authenticated and uses that state to hide/show login controls, when user logs in/out or creates credentials te service endpoints are called
+  - Authorization cookie: uses a secure cookie to store the authorization token for an authenticated user, use of secure httpOnly and sameSite, when a user is logged in the cookie is added, when a user makes a secure request the cookie is checked, when the user logs out the cookie is removed
+  - Application service endpoints: contained in index.js, authCreate, authLogin, authLogout, userGet, work with the db to store and get credentials and update the authorization cookie, secureApiRouter (Express router) wraps the existing router to add middleware function that verifies that the authorization cookie is valid before passing the request to endpoints
 
 ### React
 - components: modularize functionality, code reuse, generate user interface (render)
