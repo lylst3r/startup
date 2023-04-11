@@ -103,6 +103,15 @@ Have you ever been distracted while studying and wished there was a site that he
 - npm init -y, npm install mongodb. node main.js
 - Simon: create a database cluster, protect credentials, stores high scores, use deployService script
 
+### Account Creation/Login
+- Endpoints: create authentication endpoint (takes email and password, returns cookie containing authentication token and user ID, checks if email already exists), login authentication endpoint (takes email and password, returns cookie containing authentication token and user ID, checks if email exists and if password is bad), GetMe endpoint (use authentication token stored in cookie to look up and return info about the authenticated user, checks if token and user exist)
+- Web service: npm init -y, npm install express cookie-parser mongodb uuid bcrypt, node main.js (or index.js, etc...)
+Handling requests: read the credentials from the body of the HTTP request, parse the request automatically into a JS object where you can read the amial and password directly out of, check for a user with that email address
+- database: store users in Mongo, getUser and creatUser functions
+- generating authentication tokens: use the uuid package (Universally Unique Identifier) >> creates a hard to guess, random, unique ID
+- securing passwords: never store the actual password >> hash it, to validate compare the hasehd login password to our stored hash, bcrypt package
+- passing authentication tokes: 
+
 ### React
 - components: modularize functionality, code reuse, generate user interface (render)
 - reactivity: making the UI react to changes in user input/data
