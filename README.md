@@ -140,3 +140,9 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 ### React
 - components: modularize functionality, code reuse, generate user interface (render)
 - reactivity: making the UI react to changes in user input/data
+
+### backend startup
+- web server: converted to web server, called third party service endpoints (quote on login page)
+- database: 
+- account creation/login: 
+- websocket: 
