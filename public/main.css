@@ -1,0 +1,105 @@
+
+body {
+    /*
+    background-image: url("main_room.jpg");
+    background-size: cover;
+    height: 100%; */
+    background-color: rgb(41, 29, 54);
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    /*background-attachment: fixed;*/
+}
+
+.topnav {
+    background-color: rgb(19, 13, 27);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #d2d5c1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(41, 29, 54);
+}
+
+.topnav a.active {
+    background-color: rgb(29, 19, 39);
+}
+
+#clock {
+    
+    width: 15%;
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    color: #d2d5c1;
+}
+
+.image_room {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+    border: none; /*comment out to see boxes*/
+    background-color: transparent;
+    outline: none;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.todo {
+    height: 200px;
+    width: 200px;
+    top: 55%;
+    left: 14%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.chat {
+    height: 100px;
+    width: 100px;
+    top: 60%;
+    right: 31%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.cal {
+    height: 200px;
+    width: 200px;
+    top: 15%;
+    right: 28%;
+    position: absolute;
+    border-radius: 40px;
+}
+
+footer {
+    background-color: rgb(19, 13, 27);
+    overflow: hidden;
+}
+
+footer a {
+    float: right;
+    color: #d2d5c1;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer a:hover {
+    background-color: rgb(41, 29, 54);
+}
