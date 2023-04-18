@@ -30,15 +30,15 @@ body {
 .login input[type="submit"] {
     border: 0;
     background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 3px solid #6c755b;
-    padding: 5px 10px;
+    margin: 2px auto;
+    margin-bottom: 10px; 
+    text-align: center; 
+    border: 3px solid #6c755b; 
+    padding: 5px 10px; 
     outline: none;
     color: #d2d5c1;
     border-radius: 5px;
-    transition: 0.25px;
+    transition: 0.25px; 
     cursor: pointer;
 }
 
@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
 } 
 
 
@@ -79,3 +79,24 @@ body {
     font-size: 35px;
     color: #d2d5c1;
 }
+
+#quote {
+    text-align: center;
+    border: 1px dashed black;
+    width: 1000px;
+}
+
+.quote-box {
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .author::before {
+    content: " - ";
+  }
