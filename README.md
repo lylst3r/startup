@@ -147,7 +147,7 @@ Handling requests: read the credentials from the body of the HTTP request, parse
   4. clean up template code (uninstall unused NPM packages, delete unnecessary create-react-app files, rename js JSX files have jsx extension, replace favicon.io with the Simon icon, update manifest.json, clean up the index.html)
   5. move template files to Simon
   6. convert to React Bootstrap
-  7. populat App.jsx
+  7. populate App.jsx
   8. create view components
   9. create the router
   10. convert to React components
@@ -160,4 +160,4 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 - web server: converted to web server, called third party service endpoints (quote on login page)
 - database: save todo list items
 - account creation/login
-- websocket: 
+- websocket: chat when click on phone
