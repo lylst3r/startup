@@ -142,7 +142,10 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 - reactivity: making the UI react to changes in user input/data
 - Simon: 
   1. reorganize Simon
-  2. 
+  2. commit this version as the starting place (makes it easy to revert if necessary)
+  3. create template React application (npx create-react-app template-react) >> basic configuration and template React application code
+  4. clean up template code (uninstall unused NPM packages, delete unnecessary create-react-app files, rename js JSX files have jsx extension, replace favicon.io with the Simon icon, update manifest.json, clean up the index.html)
+  5. 
 
 ### backend startup
 - web server: converted to web server, called third party service endpoints (quote on login page)
