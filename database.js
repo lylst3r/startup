@@ -11,19 +11,28 @@ if (!userName) {
 const url = `mongodb+srv://${userName}:${password}@${hostname}`;
 
 const client = new MongoClient(url);
-const scoreCollection = client.db('startup').collection('item');
+const itemCollection = client.db('startup').collection('item');
 
 function addItem(item) {
-  scoreCollection.insertOne(item);
+  itemCollection.insertOne(item);
 }
 
 function getItems() {
-  const query = {item: {$gt: 0}};
-  const options = {
-    sort: {item: -1}
-  };
-  const cursor = scoreCollection.find(query, options);
-  return cursor.toArray();
+//   const query = {item: {$all}};
+//   const options = {
+//     sort: {item: -1}
+//   };
+//   const cursor = itemCollection.find(query, options);
+//   return cursor.toArray(); 
+  return itemCollection.toArray();
 }
+
+/*
+function printItems() {
+var arr = itemCollection.toArray();
+    for (i=0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+} */
 
 module.exports = {addItem, getItems};
