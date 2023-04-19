@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const express = require('express');
 const app = express();
 const DB = require('./database.js');
+const { peerProxy } = require('./peerProxy.js');
 
 const authCookieName = 'token';
 
@@ -105,9 +106,10 @@ app.use((_req, res) => {
     });
   }
 
+  /*
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
-  });
+  }); */
 
   /*
   let items = [];
@@ -119,15 +121,17 @@ app.listen(port, () => {
   // Create a websocket object
 const wss = new WebSocketServer({ noServer: true });
 
+/*
 // Handle the protocol upgrade from HTTP to WebSocket
 server.on('upgrade', (request, socket, head) => {
   wss.handleUpgrade(request, socket, head, function done(ws) {
     wss.emit('connection', ws, request);
   });
 });
+*/
 
 // Keep track of all the connections so we can forward messages
-let connections = [];
+/*let connections = [];
 
 wss.on('connection', (ws) => {
   const connection = { id: connections.length + 1, alive: true, ws: ws };
@@ -169,4 +173,10 @@ setInterval(() => {
       c.ws.ping();
     }
   });
-}, 10000);
+}, 10000); */
+
+const httpService = app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
+
+peerProxy(httpService);
