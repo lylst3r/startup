@@ -140,21 +140,6 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 ### React
 - components: modularize functionality, code reuse, generate user interface (render)
 - reactivity: making the UI react to changes in user input/data
-- Simon: 
-  1. reorganize Simon
-  2. commit this version as the starting place (makes it easy to revert if necessary)
-  3. create template React application (npx create-react-app template-react) >> basic configuration and template React application code
-  4. clean up template code (uninstall unused NPM packages, delete unnecessary create-react-app files, rename js JSX files have jsx extension, replace favicon.io with the Simon icon, update manifest.json, clean up the index.html)
-  5. move template files to Simon
-  6. convert to React Bootstrap
-  7. populat App.jsx
-  8. create view components
-  9. create the router
-  10. convert to React components
-  11. set up to debug
-  12. refractor play.jsx into simonGame.jsx, simonButton.jsx, and players.jsx
-  13. refractor components to take advantage of React specific functionality and to create sub-components
-  14. move webSocket code from play.jsx to gameNotifier.js
 
 ### backend startup
 - web server: converted to web server, called third party service endpoints (quote on login page)
