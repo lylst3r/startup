@@ -2,16 +2,38 @@
 <html lang="en">
     <header>
         <link rel="stylesheet" href="chat.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Chat</title>
     </header>
 
     <body>
+        <!--
         <div class="container">
             <img src="main_room.jpg" alt="main_room" class="image_room" />
             <div class="box">
                 <button class="btn back" onclick="window.location='main.html';">BACK</button>
                 <p>friends and chat to be implemented later</p>
             </div>
+        </div>-->
+        <form method="get" action="main.html">
+            <input type="submit" id="back" value="Back" />
+        </form>
+        <div class="chat-box">
+            <div class="name">
+                <fieldset id="name-controls">
+                  <legend>Name</legend>
+                  <input id="my-name" type="text" />
+                </fieldset>
+              </div>
+          
+              <fieldset id="chat-controls" disabled>
+                <legend>Chat</legend>
+                <input id="new-msg" type="text" />
+                <button onclick="sendMessage()">Send</button>
+              </fieldset>
+              <div id="chat-text"></div>
         </div>
+        <script src="chat.js"></script>
     </body>
 </html>

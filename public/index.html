@@ -7,15 +7,72 @@
     <body>
         <div class="sign">
             <img src="welcome_sign.jpg" alt="welcome_sign" class="image_sign">
+            
             <div class="login">
-                <h1 class="welcome">Welcome!</h1>
+                <h1 class="welcome">Welcome!</h1> <!--
                 <form method="get" action="main.html">
-                    <input type="text" id="user" placeholder="Username" />
-                    <input type="password" id="pass" placeholder="Password" />
+                    <input type="text" id="userName" placeholder="Username" />
+                    <input type="password" id="userPassword" placeholder="Password" />
                     <input type="submit" id="login" value="Login" />
                     <input type="submit" id="create" value="Create" />
-                </form>
+                </form> -->
+
+        <div id="loginControls" style="display: none">
+            <div class="input-group mb-3">
+              <span class="input-group-text"></span>
+              <input
+                class="form-control"
+                type="text"
+                id="userName"
+                placeholder="Username"
+              />
             </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text"></span>
+              <input
+                class="form-control"
+                type="password"
+                id="userPassword"
+                placeholder="Password"
+              />
+            </div>
+            <button type="button" class="btn btn-primary" onclick="loginUser()">
+              Login
+            </button>
+            <button type="button" class="btn btn-primary" onclick="createUser()">
+              Create
+            </button>
+          </div>
+
+          <div id="playControls" style="display: none">
+            <div id="playerName"></div>
+            <button type="button" class="btn btn-primary" onclick="play()">
+              Play
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="logout()">
+              Logout
+            </button>
+          </div>
+        </div>
+  
+        <!-- Error dialog 
+        <div class="modal fade" id="msgModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-dark">
+              <div class="modal-body">error message here</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+            </div> -->
+
         </div>
 
         <div id="quote" class="quote-box bg-light text-dark"></div>

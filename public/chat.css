@@ -2,8 +2,10 @@ body {
     background-color: rgb(41, 29, 54);
     background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
+    color: #a1ad8a;
 }
 
+/*
 .image_room {
     width: 100%;
     object-fit: cover;
@@ -26,3 +28,46 @@ body {
     left: 30%;
     text-align: center;
 }
+*/
+
+.chat-box {
+    width: 1700px;
+    margin: auto;
+}
+
+#chat-text {
+    padding: 1em 0;
+  }
+div .friend {
+    color: rgb(153, 87, 148);
+    margin-left: 0.5em;
+  }
+div .me {
+    color: rgb(87, 153, 117);
+  }
+div .system {
+    color: rgb(225, 103, 10);
+  }
+.name {
+    padding: 1em 0;
+  }
+
+button, #back {
+    border: 0;
+    background: none;
+    margin: 2px auto;
+    margin-bottom: 10px; 
+    text-align: center; 
+    border: 3px solid #a1ad8a; 
+    padding: 5px 10px; 
+    outline: none;
+    color: #d2d5c1;
+    border-radius: 5px;
+    transition: 0.25px; 
+    cursor: pointer;
+  }
+
+  button:hover, #back:hover {
+    background: #73805d;
+    border: 3px solid #73805d;
+  }

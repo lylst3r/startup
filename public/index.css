@@ -27,7 +27,7 @@ body {
     border-color: #6c755b;
 }
 
-.login input[type="submit"] {
+.login input[type="submit"], button {
     border: 0;
     background: none;
     margin: 2px auto;
@@ -42,7 +42,7 @@ body {
     cursor: pointer;
 }
 
-.login input[type="submit"]:hover {
+.login input[type="submit"]:hover, button:hover {
     background: #6c755b;
 }
 
