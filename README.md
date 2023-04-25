@@ -161,3 +161,16 @@ Handling requests: read the credentials from the body of the HTTP request, parse
 - database: save todo list items
 - account creation/login
 - websocket: chat when click on phone
+
+### final review
+- Ports 
+  - HTTP: 80
+  - HTTPS: 443
+  - FTP: 21 (command port) 20 (data port)
+  - SSH: 22
+- HTTP status codes 
+  - 100s: informational (the request initiated is continuing)
+  - 200s: success
+  - 300s: content redirects or caching
+  - 400s: client error
+  - 500s: server error
