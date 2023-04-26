@@ -174,3 +174,15 @@ Handling requests: read the credentials from the body of the HTTP request, parse
   - 300s: content redirects or caching
   - 400s: client error
   - 500s: server error
+- standard HTTP headers
+  - A-IM, Accept, Accept-Charset, Accept-Datetime, Accept-Encoding, Accept-Language, Access-Control-Request-Method/Headers, Authorization, Cache-Control, Connection, Content-Encoding, Content-Length, Content-MD5, Content-Type, Cookie, Date, Expect, Forwarded, From, Host, HTTP2-Settings, If-Match, If-Modified-Since, If-None-Match, If-Range, If-Unmodified-Since, Max-Forwards, Origin, Pragma, Prefer, Proxy-Authorization, Range, Referer, TE, Trailer, Transfer-Encoding, User-Agent, Upgrade, Via, Warning
+- cookies: allow a server to store data on the client
+- HTTP requests
+- Express middleware
+- MongoDB query
+  - comparison operators: $eq (equal), $gt (greater than), $lt (less than), $gte (greator or equal), $lte (less or equal), $in (any of the values in an array), $ne (not equal), $nin (none of the values specified in an array)
+  - logical operators: $and, $or, $nor (don't match either conditions), $not
+  - element operators: $exists, $type
+  - evaluation operators: $jsonSchema (validate the document according to the given JSON schema), $mod (remainder), $regex (regular expression), $text (text search on indicated field), $where (matches documents that satisfy a JS expression)
+  - array operators: $all, $size, $elemMatch (each array element matches conditions)
+  - comment operator: $comment
