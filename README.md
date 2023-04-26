@@ -186,3 +186,9 @@ Handling requests: read the credentials from the body of the HTTP request, parse
   - evaluation operators: $jsonSchema (validate the document according to the given JSON schema), $mod (remainder), $regex (regular expression), $text (text search on indicated field), $where (matches documents that satisfy a JS expression)
   - array operators: $all, $size, $elemMatch (each array element matches conditions)
   - comment operator: $comment
+- hashing passwords: improves security by making the password unreadable
+- WebSocket: adds peer to peer instead of client to server
+- JSX: a JS Extenstion Syntax used in React to write HTML and JS together, inject HTML into JS, componentize HTML, allow for composability of HTML
+- NPM install ws: locks the version of the websocket, package for your application, adds the websocket source code to the node_modules directory, adds a dependency to your package.json file
+- fetch: retrieval of data by something, can be used in front-end and back-end
+- Linux daemon: background processes, executes independent of a user, starts when the computer is rebooted, e.g. PM2
